@@ -28,7 +28,7 @@ public class Search_Flight {
 	     //driver.findElement(By.xpath("//p[@class=\12 Oc]")).click(); // Select Booking date
 	     driver.findElement(By.xpath("//div[@class=\"sc-12foipm-91 biWUTl\"]")).click();
 	     driver.findElement(By.xpath("//span[@class=\"sc-12foipm-72 ezNmSh\"]")).click();
-	    
+	    driver.findElement(By.xpath("//span[contains(text(),'Trains')]")).click();
 	  
 
 	}
